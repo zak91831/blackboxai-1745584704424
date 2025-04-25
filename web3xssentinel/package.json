@@ -1,0 +1,31 @@
+{
+  "name": "web3xssentinel",
+  "version": "1.0.0",
+  "description": "Tool to detect and simulate XSS vulnerabilities in Web3 dApps",
+  "main": "index.js",
+  "bin": {
+    "web3xssentinel": "./index.js"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "web3",
+    "xss",
+    "security",
+    "dapp",
+    "scanner"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "commander": "^10.0.0",
+    "dompurify": "^3.0.2",
+    "playwright": "^1.35.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
